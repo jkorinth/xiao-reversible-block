@@ -1,0 +1,5 @@
+{
+"description": "Reversible socket schematic and layout for XIAO-compatible MCU boards. Uses 0R-bridges to select top or bottom population.",
+"keywords": "xiao xiao_ble xiao_nrf52840 reversible low-profile socket",
+"fields": {}
+}

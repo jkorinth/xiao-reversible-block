@@ -1,0 +1,511 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "209d9924-e92a-4f5e-9c13-c376465ad544")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 110.49 88.9) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b8e17f6-f4ea-4358-9f96-3067d0cb287d")
+	)
+	(wire
+		(pts
+			(xy 118.11 88.9) (xy 127 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e6afb6b-0e95-4546-b210-9b211f661e2d")
+	)
+	(wire
+		(pts
+			(xy 118.11 76.2) (xy 127 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e34d187-b09c-4817-9a4b-6d56bf504aee")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e108eb60-530e-48a3-881e-58021f429b78")
+	)
+	(wire
+		(pts
+			(xy 101.6 76.2) (xy 101.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f335bdf1-8e90-4f13-8b6f-68a39d29777e")
+	)
+	(hierarchical_label "MCU"
+		(shape bidirectional)
+		(at 101.6 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9aaf634e-559a-482e-b1d8-d1caaeec20d4")
+	)
+	(hierarchical_label "R"
+		(shape bidirectional)
+		(at 127 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "afeea504-95d2-46c4-8988-abb4763202d6")
+	)
+	(hierarchical_label "L"
+		(shape bidirectional)
+		(at 127 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c0dafdca-432a-4107-ae93-45ea54f7ce74")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "99e1e9fb-f33d-42e3-b3a8-eb2b3c8484bf")
+		(property "Reference" "RR8"
+			(at 114.3 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 114.3 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
+			(at 114.3 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e508e23a-e524-4eeb-81ad-fc2bdec89983")
+		)
+		(pin "2"
+			(uuid "8de5338d-2666-4c5f-b771-afd7cf71ebcc")
+		)
+		(instances
+			(project "xiao-reversible-block"
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/046faacc-fde2-4190-90e3-ede4a8ef1666"
+					(reference "RR4")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/339ff731-2cbb-448d-8834-0eacb131ed93"
+					(reference "RR2")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/40dcc29f-a631-40ef-9e86-7abaa2f53992"
+					(reference "RR13")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/438ed47c-cf0b-4490-88c7-ff6ec7193b56"
+					(reference "RR11")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/59f084b7-df8c-4a5b-bd9d-d459df06e0d6"
+					(reference "RR12")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/5e9ac451-b3f6-41c1-89a0-740bc34cacce"
+					(reference "RBR1")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/6769f4ce-8b88-4839-865b-4d54684a18cd"
+					(reference "RBR2")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/6ee2a0eb-4620-4ea0-9564-339fb546c527"
+					(reference "RR6")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/764f5a69-e08b-4bc3-ba5d-6b227d2341bd"
+					(reference "RR3")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/7994b796-664c-4d0d-9dfd-a06b8c036448"
+					(reference "RR7")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/9847d23f-d165-468e-8cc2-348960214cd4"
+					(reference "RR5")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/a8c1ac40-d419-46d7-bddd-1c38508d8d66"
+					(reference "RR8")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/df84cb4c-1fff-4cec-b43d-b74872e173c4"
+					(reference "RR14")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/e59b9d75-224b-43f0-80d2-d7a1fd807d4e"
+					(reference "RR9")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/f85fd86f-36db-4145-a065-078a454b7191"
+					(reference "RR10")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/fe703a66-c74b-48a1-b380-59e98776e2db"
+					(reference "RR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 114.3 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f120cedc-3cea-405e-ab0b-a21ef8b7b430")
+		(property "Reference" "RL8"
+			(at 114.3 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 114.3 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
+			(at 114.3 77.978 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aff21c72-809a-4ef7-a353-ae8c779a4466")
+		)
+		(pin "2"
+			(uuid "ce9c4c1a-1c9d-4f5f-997a-416e70904ccb")
+		)
+		(instances
+			(project "xiao-reversible-block"
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/046faacc-fde2-4190-90e3-ede4a8ef1666"
+					(reference "RL4")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/339ff731-2cbb-448d-8834-0eacb131ed93"
+					(reference "RL2")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/40dcc29f-a631-40ef-9e86-7abaa2f53992"
+					(reference "RL13")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/438ed47c-cf0b-4490-88c7-ff6ec7193b56"
+					(reference "RL11")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/59f084b7-df8c-4a5b-bd9d-d459df06e0d6"
+					(reference "RL12")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/5e9ac451-b3f6-41c1-89a0-740bc34cacce"
+					(reference "RBL1")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/6769f4ce-8b88-4839-865b-4d54684a18cd"
+					(reference "RBL2")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/6ee2a0eb-4620-4ea0-9564-339fb546c527"
+					(reference "RL6")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/764f5a69-e08b-4bc3-ba5d-6b227d2341bd"
+					(reference "RL3")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/7994b796-664c-4d0d-9dfd-a06b8c036448"
+					(reference "RL7")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/9847d23f-d165-468e-8cc2-348960214cd4"
+					(reference "RL5")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/a8c1ac40-d419-46d7-bddd-1c38508d8d66"
+					(reference "RL8")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/df84cb4c-1fff-4cec-b43d-b74872e173c4"
+					(reference "RL14")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/e59b9d75-224b-43f0-80d2-d7a1fd807d4e"
+					(reference "RL9")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/f85fd86f-36db-4145-a065-078a454b7191"
+					(reference "RL10")
+					(unit 1)
+				)
+				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c/fe703a66-c74b-48a1-b380-59e98776e2db"
+					(reference "RL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

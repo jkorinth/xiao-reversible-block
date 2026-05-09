@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "xiao-reversible-block") (type "KiCad") (uri "/home/jk/prj/xiao-reversible-block/lib/footprints/xiao-reversible-block.pretty") (options "") (descr ""))
+)
