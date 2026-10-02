@@ -5,164 +5,6 @@
 	(uuid "c3fe4066-4364-475c-8237-f1706cdb5d8c")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -1371,12 +1213,6 @@
 		(uuid "7a30b7b0-75bc-4c8d-a0da-69c2dbd6f9f0")
 	)
 	(junction
-		(at 152.4 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e3b181a-07b2-45f7-be57-6f56d8461a5e")
-	)
-	(junction
 		(at 102.87 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1399,12 +1235,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb0f7bf5-8381-480c-9974-61e84ec03b30")
-	)
-	(junction
-		(at 139.7 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be0de3e5-ea88-4477-a957-b7e339bce2a8")
 	)
 	(junction
 		(at 102.87 92.71)
@@ -1450,16 +1280,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0601a6f3-7105-4b45-811b-27d9a04421d5")
-	)
-	(wire
-		(pts
 			(xy 195.58 91.44) (xy 232.41 91.44)
 		)
 		(stroke
@@ -1500,16 +1320,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 127) (xy 147.32 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fab1736-2b31-486f-a3cd-08959e00380c")
-	)
-	(wire
-		(pts
 			(xy 115.57 96.52) (xy 127 96.52)
 		)
 		(stroke
@@ -1547,16 +1357,6 @@
 			(type default)
 		)
 		(uuid "1c0e00bf-3732-4b17-b782-240ac2cc7692")
-	)
-	(wire
-		(pts
-			(xy 152.4 128.27) (xy 152.4 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c20e1ec-4c4e-4561-be3f-734d21eb76f7")
 	)
 	(wire
 		(pts
@@ -1650,16 +1450,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 161.29 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1a0b7b-a6d1-49c3-aa37-8a62f241e0ff")
-	)
-	(wire
-		(pts
 			(xy 102.87 91.44) (xy 102.87 92.71)
 		)
 		(stroke
@@ -1687,16 +1477,6 @@
 			(type default)
 		)
 		(uuid "55b64b92-0d9b-40ea-82ad-dc25231096b3")
-	)
-	(wire
-		(pts
-			(xy 157.48 128.27) (xy 161.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "576ed1ee-1500-41f1-be6d-dc73349c0865")
 	)
 	(wire
 		(pts
@@ -1800,16 +1580,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 139.7 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7708cfc9-e177-4f5e-a173-71d43cf46516")
-	)
-	(wire
-		(pts
 			(xy 102.87 100.33) (xy 127 100.33)
 		)
 		(stroke
@@ -1890,16 +1660,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 144.78 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9946f487-4036-46be-911f-4ee9f8111892")
-	)
-	(wire
-		(pts
 			(xy 76.2 93.98) (xy 97.79 93.98)
 		)
 		(stroke
@@ -1920,16 +1680,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 128.27) (xy 134.62 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a807f28-4957-478a-bd48-c059008c3b8c")
-	)
-	(wire
-		(pts
 			(xy 78.74 90.17) (xy 110.49 90.17)
 		)
 		(stroke
@@ -1947,26 +1697,6 @@
 			(type default)
 		)
 		(uuid "9f842691-e89b-4293-9b93-2a97f24ba48c")
-	)
-	(wire
-		(pts
-			(xy 152.4 127) (xy 152.4 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a15eafc9-8a99-429d-8760-a839054908e9")
-	)
-	(wire
-		(pts
-			(xy 144.78 125.73) (xy 144.78 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a84a08b6-ee1f-401d-870b-9554d2925e37")
 	)
 	(wire
 		(pts
@@ -2140,16 +1870,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 125.73) (xy 134.62 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8403873-427b-4de1-adf8-95c9b0e6824e")
-	)
-	(wire
-		(pts
 			(xy 115.57 88.9) (xy 127 88.9)
 		)
 		(stroke
@@ -2167,16 +1887,6 @@
 			(type default)
 		)
 		(uuid "e4818583-5ba8-4cca-87c3-8dda45d1367d")
-	)
-	(wire
-		(pts
-			(xy 139.7 125.73) (xy 139.7 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4f22245-0198-4e3c-bb20-21990a4ac034")
 	)
 	(wire
 		(pts
@@ -2227,270 +1937,6 @@
 			(type default)
 		)
 		(uuid "ffefd556-53fc-4314-b6d0-92cb06f1f478")
-	)
-	(label "P1.14_D9_MISO"
-		(at 92.71 105.41 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d6eb449-d674-4eed-ad18-ea634ccdd6ed")
-	)
-	(label "P0.05_A5_D5_SCL"
-		(at 92.71 106.68 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "0dae47eb-9951-41ed-836f-199df010d922")
-	)
-	(label "P0.04_A4_D4_SDA"
-		(at 199.39 105.41 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d6b7a10-72d8-45e6-8015-6ea97d8863e7")
-	)
-	(label "BAT-"
-		(at 161.29 125.73 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "22590f80-446b-4e61-a89b-6f2f1afbc1ca")
-	)
-	(label "P0.29_A3_D3"
-		(at 199.39 101.6 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "27732d3f-b3f5-4453-8585-92de6c34ce64")
-	)
-	(label "P1.12_D7_RX"
-		(at 199.39 110.49 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "37754875-4316-4fb4-b81e-02dfe2899a87")
-	)
-	(label "P0.28_A2_D2"
-		(at 199.39 97.79 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "39afd751-62bd-413a-8bb4-94e9f74db514")
-	)
-	(label "P0.03_A1_D1"
-		(at 199.39 93.98 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f8454c8-a285-47d5-99fb-3742c16c13c8")
-	)
-	(label "P.0.02_A0_D0"
-		(at 199.39 90.17 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "4320b2e8-2e2d-4309-bf8d-54583423827c")
-	)
-	(label "P1.11_D6_TX"
-		(at 92.71 110.49 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "44dbd688-3c8c-4447-b33a-4fc2b9744110")
-	)
-	(label "P1.13_D8_SCK"
-		(at 92.71 109.22 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "50166aef-8312-43c8-9314-a94ac164fb87")
-	)
-	(label "BAT-"
-		(at 130.81 128.27 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "622e85e1-0c5a-416d-bc00-b8f848d11883")
-	)
-	(label "P.0.02_A0_D0"
-		(at 92.71 87.63 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "695056dc-de01-4658-afd3-3e7d6426be14")
-	)
-	(label "P0.28_A2_D2"
-		(at 92.71 95.25 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "833defe4-4cd5-4a42-a16d-73e8ed7a2526")
-	)
-	(label "P0.03_A1_D1"
-		(at 92.71 91.44 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "8bb18399-b1b7-4dfb-9a6c-e0409eea199a")
-	)
-	(label "P1.13_D8_SCK"
-		(at 199.39 106.68 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "9247e39c-2b12-421c-9635-cee3b9c99d30")
-	)
-	(label "P0.29_A3_D3"
-		(at 92.71 99.06 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "a4b1cc9c-d636-4951-89fe-02dd695b8506")
-	)
-	(label "P1.15_D10_MOSI"
-		(at 199.39 99.06 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "a96ba3a7-0fdc-4c6f-afb9-d40178b06db2")
-	)
-	(label "P0.05_A5_D5_SCL"
-		(at 199.39 109.22 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba71ec9a-24f6-4543-8c10-a191668a1c95")
-	)
-	(label "P0.04_A4_D4_SDA"
-		(at 92.71 102.87 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0961c3f-05c6-40a6-ad58-bd35dd8b97de")
-	)
-	(label "P1.15_D10_MOSI"
-		(at 92.71 101.6 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "ddc91274-3f35-4bfd-836b-b5a7fc8451d8")
-	)
-	(label "P1.14_D9_MISO"
-		(at 199.39 102.87 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8d03ff3-3f8b-4233-bd9f-69233afc7415")
-	)
-	(label "P1.11_D6_TX"
-		(at 199.39 113.03 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd6ad181-ac62-4fa1-bc22-3cd4213d87cf")
-	)
-	(label "P1.12_D7_RX"
-		(at 92.71 113.03 180)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right bottom)
-		)
-		(uuid "fff4c6dd-7882-48cf-aad6-a295f1975641")
-	)
-	(global_label "BAT+"
-		(shape input)
-		(at 130.81 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify right)
-		)
-		(uuid "088f688b-512e-4be6-af99-1be84acb6537")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.2915 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 	)
 	(global_label "+3V3"
 		(shape input)
@@ -2564,30 +2010,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 161.29 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left)
-		)
-		(uuid "b0d6706c-b7a8-403f-a2a4-3536f99215aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 166.8085 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "+5V"
 		(shape input)
 		(at 78.74 90.17 180)
@@ -2611,6 +2033,248 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "P.0.02_A0_D0"
+		(shape input)
+		(at 92.71 87.63 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "05142697-eec1-41bd-b244-ff015b8bd3a0")
+	)
+	(hierarchical_label "P.0.02_A0_D0"
+		(shape input)
+		(at 199.39 90.17 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "053d8bfa-3c16-41bc-86ef-742fedcf8089")
+	)
+	(hierarchical_label "P1.14_D9_MISO"
+		(shape input)
+		(at 199.39 102.87 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "1ffb7d7e-772e-4c0e-a484-a7b0d2a89240")
+	)
+	(hierarchical_label "P0.05_A5_D5_SCL"
+		(shape input)
+		(at 92.71 106.68 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "294d57f3-29ce-47bf-8707-9636b4f58d84")
+	)
+	(hierarchical_label "P0.05_A5_D5_SCL"
+		(shape input)
+		(at 199.39 109.22 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "344601ec-438e-4ec4-b9f3-c06f216fe109")
+	)
+	(hierarchical_label "P1.15_D10_MOSI"
+		(shape input)
+		(at 92.71 101.6 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "35a061df-05d6-47a4-985b-c1d0bcfd6d55")
+	)
+	(hierarchical_label "P1.15_D10_MOSI"
+		(shape input)
+		(at 199.39 99.06 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "35cbf9e5-f122-444a-995d-94cd092bb7d2")
+	)
+	(hierarchical_label "P1.13_D8_SCK"
+		(shape input)
+		(at 92.71 109.22 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "379863ee-38aa-4d82-8fff-eff5d2257408")
+	)
+	(hierarchical_label "P0.04_A4_D4_SDA"
+		(shape input)
+		(at 92.71 102.87 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "3a3b258d-95d2-442f-950b-99558445ffa2")
+	)
+	(hierarchical_label "P0.28_A2_D2"
+		(shape input)
+		(at 199.39 97.79 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "40f08cb5-d0af-4f47-9f35-644bd6b30b54")
+	)
+	(hierarchical_label "P0.29_A3_D3"
+		(shape input)
+		(at 199.39 101.6 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "4a1a89e9-af1d-416f-90e6-9b5b20ab8e36")
+	)
+	(hierarchical_label "P1.13_D8_SCK"
+		(shape input)
+		(at 199.39 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "4e3e53d6-3adc-4ee8-ac89-303166e7433e")
+	)
+	(hierarchical_label "P1.11_D6_TX"
+		(shape input)
+		(at 92.71 110.49 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "57c1f7b0-248d-4ec1-b061-a8d5b524c09b")
+	)
+	(hierarchical_label "P1.12_D7_RX"
+		(shape input)
+		(at 199.39 110.49 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "640eb5e7-b79c-4378-978c-600b38fb5f5e")
+	)
+	(hierarchical_label "P0.28_A2_D2"
+		(shape input)
+		(at 92.71 95.25 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "6760a054-f903-4a4c-855c-140b73391521")
+	)
+	(hierarchical_label "P1.12_D7_RX"
+		(shape input)
+		(at 92.71 113.03 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "7da27789-325b-4769-a78d-dd577bb04b7d")
+	)
+	(hierarchical_label "P0.03_A1_D1"
+		(shape input)
+		(at 199.39 93.98 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "92d6e9d3-5cd3-43a8-8c3e-834e97fe32bd")
+	)
+	(hierarchical_label "P0.03_A1_D1"
+		(shape input)
+		(at 92.71 91.44 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "c41b4b3d-49ff-4387-9210-48c96b72c4fa")
+	)
+	(hierarchical_label "P1.11_D6_TX"
+		(shape input)
+		(at 199.39 113.03 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "c5318562-4215-4a97-8384-036500c34ca7")
+	)
+	(hierarchical_label "P1.14_D9_MISO"
+		(shape input)
+		(at 92.71 105.41 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "cab4e4a7-9236-4a13-bc6b-e04720d6029c")
+	)
+	(hierarchical_label "P0.04_A4_D4_SDA"
+		(shape input)
+		(at 199.39 105.41 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left)
+		)
+		(uuid "d5ed09c3-0044-49a7-ac6a-889932afdede")
+	)
+	(hierarchical_label "P0.29_A3_D3"
+		(shape input)
+		(at 92.71 99.06 180)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify right)
+		)
+		(uuid "fc48eb0a-3381-482f-8261-6d810f22d308")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -2643,7 +2307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 193.04 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -2722,7 +2386,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -2879,7 +2543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 100.33 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2958,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 193.04 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3037,7 +2701,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 193.04 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3116,7 +2780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 100.33 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +2937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 100.33 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3352,7 +3016,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +3095,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3510,7 +3174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3560,85 +3224,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 154.94 128.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "3d150d38-2af5-4015-b23b-dfbc66c351c0")
-		(property "Reference" "RBR2"
-			(at 154.94 130.048 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 154.94 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 154.94 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a6483fe4-2f80-49ea-b0d3-b0ca40fc9f64")
-		)
-		(pin "1"
-			(uuid "abcad3ea-cecc-4299-8fb5-8f37c684af87")
-		)
-		(instances
-			(project "xiao-reversible-block"
-				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
-					(reference "RBR2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 180.34 105.41 270)
 		(unit 1)
 		(body_style 1)
@@ -3668,7 +3253,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -3747,7 +3332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3797,85 +3382,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 154.94 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "50c1a98f-13ed-4d74-bf6e-c5d67f4d340d")
-		(property "Reference" "RBL2"
-			(at 154.94 123.952 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 154.94 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 154.94 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "dade7608-aebc-4896-b2ee-d7d11fb86c89")
-		)
-		(pin "1"
-			(uuid "eabeec2c-8e00-48cf-a80b-40f7397f514b")
-		)
-		(instances
-			(project "xiao-reversible-block"
-				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
-					(reference "RBL2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
 		(at 113.03 102.87 90)
 		(unit 1)
 		(body_style 1)
@@ -3905,7 +3411,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -3984,7 +3490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4063,7 +3569,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -4142,7 +3648,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 100.33 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4221,7 +3727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 193.04 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4300,7 +3806,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4379,7 +3885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4422,163 +3928,6 @@
 			(project "xiao-reversible-block"
 				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
 					(reference "RL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 130.81 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8194b808-fb41-4a43-be75-c99ca9396b2a")
-		(property "Reference" "#PWR03"
-			(at 130.81 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 130.81 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 130.81 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cfa98d5c-895a-4920-8224-fe04f649ea2e")
-		)
-		(instances
-			(project "xiao-reversible-block"
-				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 125.73 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "877617d2-f57a-4237-84c6-c58cb829ad0b")
-		(property "Reference" "RBL1"
-			(at 137.16 123.952 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 137.16 125.73 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 137.16 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6560989f-60f2-41dc-909c-b60f977cc045")
-		)
-		(pin "1"
-			(uuid "102444fe-ee14-4a5c-9012-331df349926f")
-		)
-		(instances
-			(project "xiao-reversible-block"
-				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
-					(reference "RBL1")
 					(unit 1)
 				)
 			)
@@ -4731,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4810,7 +4159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4889,7 +4238,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 100.33 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4968,7 +4317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 193.04 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -5125,7 +4474,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5174,88 +4523,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 144.78 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6648dd1-b158-42f5-b632-83fa1dc58ac3")
-		(property "Reference" "J1"
-			(at 149.86 119.3799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 149.86 121.9199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 144.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21e793a7-b1b0-4d05-b8df-7b2f2f776057")
-		)
-		(pin "2"
-			(uuid "cb56c159-46b5-47af-8d24-675c40abc2fd")
-		)
-		(instances
-			(project "xiao-reversible-block"
-				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 180.34 110.49 90)
 		(unit 1)
@@ -5286,7 +4553,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 180.34 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5365,7 +4632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 193.04 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5444,7 +4711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 113.03 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5601,7 +4868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "xiao-reversible-block:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder_0R"
 			(at 100.33 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -5800,85 +5067,6 @@
 			(project "xiao-reversible-block"
 				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 137.16 128.27 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "ff562fed-17bf-444e-9271-406aed252be9")
-		(property "Reference" "RBR1"
-			(at 137.16 130.048 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 137.16 128.27 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.889 0.889)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 137.16 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30e2f42f-4385-4f48-a683-f910644ffa77")
-		)
-		(pin "1"
-			(uuid "b0811646-f3b9-4aa8-9bcb-1e7adb3d617f")
-		)
-		(instances
-			(project "xiao-reversible-block"
-				(path "/c3fe4066-4364-475c-8237-f1706cdb5d8c"
-					(reference "RBR1")
 					(unit 1)
 				)
 			)
